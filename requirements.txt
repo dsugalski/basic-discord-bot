@@ -1,0 +1,12 @@
+aiohttp>=3.8.1
+apscheduler>=3.9.1
+pip>=21.2.4
+psutil>=5.9.8
+python-dateutil>=2.8.2
+python-dotenv>=0.20.0
+sqlalchemy>=2.0.31
+discord.py>=2.4.0
+requests>=2.30.0
+typing-extensions>=4.5.0
+Quart>=0.19.6
+Quart-Discord>=2.1.4

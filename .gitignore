@@ -1,0 +1,9 @@
+
+*~
+logs/*
+*.pyc
+*.db
+.env
+*.db-shm
+*.db-wal
+*.md#
