@@ -1,7 +1,4 @@
-import discord
-import logging
 import os
-import traceback
 
 from discord.ext import commands
 from discord.ext.commands import errors

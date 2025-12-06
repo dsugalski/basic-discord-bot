@@ -1,10 +1,8 @@
-import sqlalchemy
 
 from datetime import datetime
 from sqlalchemy.orm import declarative_base, Session
 from sqlalchemy import Column, Integer, String, Table, DateTime
 from sqlalchemy import select, func
-from src.logging import logger
 
 Base = declarative_base()
 

@@ -1,14 +1,10 @@
 import asyncio
-import discord
 import os
 
 from discord import Guild, Member, User
 from discord.ext import commands
-from hypercorn.asyncio import serve
-from hypercorn.config import Config as HyperConfig
-from quart import Quart, redirect, url_for, render_template, request, session, abort, send_file, send_from_directory
+from quart import Quart, redirect, url_for, render_template, request, session, send_from_directory
 from quart_discord import DiscordOAuth2Session, requires_authorization, Unauthorized
-from typing import Any
 
 from src.logging import logger
 
@@ -167,7 +163,7 @@ class Web(commands.Cog):
                     m = await guild.fetch_member(user.id)
                 if m is not None:
                     guilds.append(guild)
-            except Exception as e:
+            except Exception:
                 pass
         return guilds
         

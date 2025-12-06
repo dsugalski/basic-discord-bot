@@ -1,10 +1,8 @@
 # Get and set config info.
-import sqlalchemy
 
 from sqlalchemy.orm import declarative_base, Session
 from sqlalchemy import Column, Integer, String, Table
 from sqlalchemy import select
-from src.logging import logger
 
 
 Base = declarative_base()
